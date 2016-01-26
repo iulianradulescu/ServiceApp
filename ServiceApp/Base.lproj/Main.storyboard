@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="U6w-ns-9sc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="U6w-ns-9sc">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -248,7 +249,7 @@
                                             <rect key="frame" x="15" y="12" width="32" height="20"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fcw-bD-pYB">
@@ -435,8 +436,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="slide2" translatesAutoresizingMaskIntoConstraints="NO" id="1It-mr-OJD">
-                                <rect key="frame" x="0.0" y="64" width="600" height="200"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slide2" translatesAutoresizingMaskIntoConstraints="NO" id="1It-mr-OJD">
+                                <rect key="frame" x="0.0" y="64" width="600" height="286"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="1It-mr-OJD" secondAttribute="height" multiplier="300:143" id="suC-28-TmV"/>
+                                </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aRg-f0-ZC8">
                                 <rect key="frame" x="292" y="171" width="120" height="120"/>
@@ -471,16 +475,24 @@
                         <constraints>
                             <constraint firstItem="1It-mr-OJD" firstAttribute="top" secondItem="MiE-HH-bag" secondAttribute="bottom" id="5L1-Wm-fPI"/>
                             <constraint firstAttribute="trailing" secondItem="BkR-zO-PrZ" secondAttribute="trailing" constant="20" id="7Tf-Vc-Z56"/>
+                            <constraint firstItem="5ib-JZ-9Mv" firstAttribute="top" secondItem="1It-mr-OJD" secondAttribute="bottom" constant="250" id="7jq-YQ-AMu"/>
+                            <constraint firstItem="1It-mr-OJD" firstAttribute="leading" secondItem="0KH-zQ-bza" secondAttribute="leading" id="CVL-VK-dJ9"/>
                             <constraint firstItem="5ib-JZ-9Mv" firstAttribute="top" secondItem="1It-mr-OJD" secondAttribute="bottom" constant="282" id="EUR-0C-m5r"/>
+                            <constraint firstItem="5ib-JZ-9Mv" firstAttribute="top" secondItem="1It-mr-OJD" secondAttribute="bottom" constant="250" id="FoL-sk-649"/>
                             <constraint firstItem="5ib-JZ-9Mv" firstAttribute="top" secondItem="VZO-5A-hCQ" secondAttribute="bottom" constant="8" id="GPY-Hu-adi"/>
+                            <constraint firstAttribute="trailing" secondItem="1It-mr-OJD" secondAttribute="trailing" id="IX0-oZ-3CN"/>
                             <constraint firstAttribute="trailing" secondItem="aRg-f0-ZC8" secondAttribute="trailing" constant="20" id="JmT-KF-gZa"/>
+                            <constraint firstItem="1It-mr-OJD" firstAttribute="top" secondItem="MiE-HH-bag" secondAttribute="bottom" id="Ktx-rr-ldU"/>
                             <constraint firstItem="1It-mr-OJD" firstAttribute="top" secondItem="MiE-HH-bag" secondAttribute="bottom" id="XMU-kR-WR2"/>
                             <constraint firstItem="VZO-5A-hCQ" firstAttribute="leading" secondItem="0KH-zQ-bza" secondAttribute="leading" constant="20" id="a4e-xE-bHi"/>
                             <constraint firstAttribute="trailing" secondItem="1It-mr-OJD" secondAttribute="trailing" id="afe-r4-bou"/>
+                            <constraint firstItem="1It-mr-OJD" firstAttribute="top" secondItem="MiE-HH-bag" secondAttribute="bottom" id="bII-N5-qCv"/>
                             <constraint firstItem="gvC-NR-BiO" firstAttribute="top" secondItem="1It-mr-OJD" secondAttribute="bottom" constant="18" id="cGs-w2-T9s"/>
                             <constraint firstItem="5ib-JZ-9Mv" firstAttribute="top" secondItem="aRg-f0-ZC8" secondAttribute="bottom" constant="8" id="h92-jB-YJR"/>
                             <constraint firstItem="BkR-zO-PrZ" firstAttribute="top" secondItem="1It-mr-OJD" secondAttribute="bottom" constant="18" id="iF2-wb-az1"/>
                             <constraint firstItem="gvC-NR-BiO" firstAttribute="leading" secondItem="0KH-zQ-bza" secondAttribute="leading" constant="20" id="jPW-HU-1me"/>
+                            <constraint firstAttribute="trailing" secondItem="1It-mr-OJD" secondAttribute="trailing" id="kMO-ui-mEd"/>
+                            <constraint firstItem="1It-mr-OJD" firstAttribute="leading" secondItem="0KH-zQ-bza" secondAttribute="leading" id="p5M-wr-nUs"/>
                             <constraint firstItem="1It-mr-OJD" firstAttribute="leading" secondItem="0KH-zQ-bza" secondAttribute="leading" id="xvf-p2-p18"/>
                         </constraints>
                         <variation key="default">
@@ -495,15 +507,15 @@
                                 <exclude reference="XMU-kR-WR2"/>
                                 <exclude reference="afe-r4-bou"/>
                                 <exclude reference="xvf-p2-p18"/>
-                                <exclude reference="cGs-w2-T9s"/>
-                                <exclude reference="jPW-HU-1me"/>
-                                <exclude reference="7Tf-Vc-Z56"/>
-                                <exclude reference="iF2-wb-az1"/>
-                                <exclude reference="a4e-xE-bHi"/>
-                                <exclude reference="JmT-KF-gZa"/>
                                 <exclude reference="EUR-0C-m5r"/>
                                 <exclude reference="GPY-Hu-adi"/>
                                 <exclude reference="h92-jB-YJR"/>
+                                <exclude reference="cGs-w2-T9s"/>
+                                <exclude reference="jPW-HU-1me"/>
+                                <exclude reference="a4e-xE-bHi"/>
+                                <exclude reference="7Tf-Vc-Z56"/>
+                                <exclude reference="iF2-wb-az1"/>
+                                <exclude reference="JmT-KF-gZa"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -518,15 +530,15 @@
                                 <include reference="XMU-kR-WR2"/>
                                 <include reference="afe-r4-bou"/>
                                 <include reference="xvf-p2-p18"/>
-                                <include reference="cGs-w2-T9s"/>
-                                <include reference="jPW-HU-1me"/>
-                                <include reference="7Tf-Vc-Z56"/>
-                                <include reference="iF2-wb-az1"/>
-                                <include reference="a4e-xE-bHi"/>
-                                <include reference="JmT-KF-gZa"/>
                                 <include reference="EUR-0C-m5r"/>
                                 <include reference="GPY-Hu-adi"/>
                                 <include reference="h92-jB-YJR"/>
+                                <include reference="cGs-w2-T9s"/>
+                                <include reference="jPW-HU-1me"/>
+                                <include reference="a4e-xE-bHi"/>
+                                <include reference="7Tf-Vc-Z56"/>
+                                <include reference="iF2-wb-az1"/>
+                                <include reference="JmT-KF-gZa"/>
                             </mask>
                         </variation>
                     </view>
@@ -538,7 +550,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RSN-f1-NHG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1123.5" y="338"/>
+            <point key="canvasLocation" x="1123" y="338"/>
         </scene>
         <!--Car Accident View Controller-->
         <scene sceneID="3HI-GW-leu">
@@ -552,32 +564,162 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kIS-WV-jqG">
-                                <rect key="frame" x="290" y="142" width="20" height="22"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car" translatesAutoresizingMaskIntoConstraints="NO" id="8rl-jK-09K">
+                                <rect key="frame" x="211" y="145" width="178" height="350"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RuO-wN-9MN" userLabel="FrontLeftFender">
+                                <rect key="frame" x="168" y="198" width="20" height="20"/>
                                 <state key="normal" title="C" image="checkmarkOff"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="290" y="142" width="33" height="22"/>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="190" y="192" width="20" height="22"/>
+                                </variation>
+                                <connections>
+                                    <action selector="toggleAccidentMarker:" destination="5LU-lq-rzu" eventType="touchUpInside" id="j1O-pr-UyW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lEE-EF-qcw" userLabel="FrontRightDoor">
+                                <rect key="frame" x="408" y="290" width="20" height="20"/>
+                                <state key="normal" title="C" image="checkmarkOff"/>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="290" y="142" width="33" height="22"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="190" y="192" width="20" height="22"/>
+                                </variation>
+                                <connections>
+                                    <action selector="toggleAccidentMarker:" destination="5LU-lq-rzu" eventType="touchUpInside" id="rnT-xf-Qh4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jyE-lq-XYD" userLabel="BackRightDoor">
+                                <rect key="frame" x="408" y="358" width="20" height="20"/>
+                                <state key="normal" title="C" image="checkmarkOff"/>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="290" y="142" width="33" height="22"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="190" y="192" width="20" height="22"/>
+                                </variation>
+                                <connections>
+                                    <action selector="toggleAccidentMarker:" destination="5LU-lq-rzu" eventType="touchUpInside" id="7M7-2P-sdG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oO1-IM-R4v" userLabel="BackRightFender">
+                                <rect key="frame" x="408" y="429" width="20" height="20"/>
+                                <state key="normal" title="C" image="checkmarkOff"/>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="290" y="142" width="33" height="22"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="190" y="192" width="20" height="22"/>
+                                </variation>
+                                <connections>
+                                    <action selector="toggleAccidentMarker:" destination="5LU-lq-rzu" eventType="touchUpInside" id="QoM-3h-tZW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eru-SZ-6wa" userLabel="BackBumper">
+                                <rect key="frame" x="290" y="503" width="20" height="20"/>
+                                <state key="normal" title="C" image="checkmarkOff"/>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="290" y="142" width="33" height="22"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="190" y="192" width="20" height="22"/>
+                                </variation>
+                                <connections>
+                                    <action selector="toggleAccidentMarker:" destination="5LU-lq-rzu" eventType="touchUpInside" id="FVH-wL-ROa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ofB-kO-yvY" userLabel="FrontLeftDoor">
+                                <rect key="frame" x="168" y="290" width="20" height="20"/>
+                                <state key="normal" title="C" image="checkmarkOff"/>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="290" y="142" width="33" height="22"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="190" y="192" width="20" height="22"/>
+                                </variation>
+                                <connections>
+                                    <action selector="toggleAccidentMarker:" destination="5LU-lq-rzu" eventType="touchUpInside" id="CTX-M1-wyO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="56a-5P-4Gz" userLabel="BackLeftDoor">
+                                <rect key="frame" x="168" y="358" width="20" height="20"/>
+                                <state key="normal" title="C" image="checkmarkOff"/>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="290" y="142" width="33" height="22"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="190" y="192" width="20" height="22"/>
+                                </variation>
+                                <connections>
+                                    <action selector="toggleAccidentMarker:" destination="5LU-lq-rzu" eventType="touchUpInside" id="Eh3-Kj-MkR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bDg-aE-KHh" userLabel="BackLeftFender">
+                                <rect key="frame" x="168" y="429" width="20" height="20"/>
+                                <state key="normal" title="C" image="checkmarkOff"/>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="290" y="142" width="33" height="22"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="190" y="192" width="20" height="22"/>
+                                </variation>
+                                <connections>
+                                    <action selector="toggleAccidentMarker:" destination="5LU-lq-rzu" eventType="touchUpInside" id="6yC-G9-Sra"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kIS-WV-jqG" userLabel="FrontBumper">
+                                <rect key="frame" x="290" y="104" width="20" height="20"/>
+                                <state key="normal" title="C" image="checkmarkOff"/>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="290" y="142" width="33" height="22"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="190" y="192" width="20" height="22"/>
                                 </variation>
                                 <connections>
                                     <action selector="toggleAccidentMarker:" destination="5LU-lq-rzu" eventType="touchUpInside" id="93d-ok-ZJp"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="car" translatesAutoresizingMaskIntoConstraints="NO" id="8rl-jK-09K">
-                                <rect key="frame" x="194" y="183" width="240" height="350"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="80" y="165" width="240" height="350"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uzd-DS-fof" userLabel="FrontRightFender">
+                                <rect key="frame" x="408" y="198" width="20" height="20"/>
+                                <state key="normal" title="C" image="checkmarkOff"/>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="290" y="142" width="33" height="22"/>
                                 </variation>
-                            </imageView>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="190" y="192" width="20" height="22"/>
+                                </variation>
+                                <connections>
+                                    <action selector="toggleAccidentMarker:" destination="5LU-lq-rzu" eventType="touchUpInside" id="FZX-kZ-ThX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Eru-SZ-6wa" firstAttribute="top" secondItem="8rl-jK-09K" secondAttribute="bottom" constant="8" id="LP2-rM-Q6k"/>
+                            <constraint firstItem="uzd-DS-fof" firstAttribute="leading" secondItem="8rl-jK-09K" secondAttribute="trailing" constant="19" id="NDR-8t-Rqq"/>
+                            <constraint firstItem="8rl-jK-09K" firstAttribute="top" secondItem="kIS-WV-jqG" secondAttribute="bottom" constant="21" id="NjQ-Oe-9oG"/>
+                            <constraint firstItem="8rl-jK-09K" firstAttribute="leading" secondItem="ofB-kO-yvY" secondAttribute="trailing" constant="23" id="SFC-Q2-9Ha"/>
+                            <constraint firstItem="kIS-WV-jqG" firstAttribute="centerX" secondItem="csw-hn-lFE" secondAttribute="centerX" id="XLZ-Bz-jHW"/>
+                            <constraint firstItem="8rl-jK-09K" firstAttribute="centerY" secondItem="csw-hn-lFE" secondAttribute="centerY" constant="20" id="ZZq-ZB-dCL"/>
+                            <constraint firstItem="8rl-jK-09K" firstAttribute="centerX" secondItem="csw-hn-lFE" secondAttribute="centerX" id="aQO-cd-dl9"/>
+                            <constraint firstItem="lEE-EF-qcw" firstAttribute="leading" secondItem="8rl-jK-09K" secondAttribute="trailing" constant="19" id="fCb-5B-Du1"/>
+                            <constraint firstItem="oO1-IM-R4v" firstAttribute="leading" secondItem="8rl-jK-09K" secondAttribute="trailing" constant="19" id="kUI-aq-eh1"/>
+                            <constraint firstItem="8rl-jK-09K" firstAttribute="leading" secondItem="RuO-wN-9MN" secondAttribute="trailing" constant="23" id="lB1-VQ-sXp"/>
+                            <constraint firstItem="8rl-jK-09K" firstAttribute="leading" secondItem="bDg-aE-KHh" secondAttribute="trailing" constant="23" id="mY4-uJ-BFa"/>
+                            <constraint firstItem="Eru-SZ-6wa" firstAttribute="centerX" secondItem="csw-hn-lFE" secondAttribute="centerX" id="q8j-UK-zsP"/>
+                            <constraint firstItem="8rl-jK-09K" firstAttribute="leading" secondItem="56a-5P-4Gz" secondAttribute="trailing" constant="23" id="rAc-xu-tyz"/>
+                            <constraint firstItem="jyE-lq-XYD" firstAttribute="leading" secondItem="8rl-jK-09K" secondAttribute="trailing" constant="19" id="rs3-ue-naU"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Or-N4-yu5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1123" y="1143"/>
+            <point key="canvasLocation" x="1164" y="1242"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="HUd-iy-yVK">
@@ -619,7 +761,7 @@
     <resources>
         <image name="accident" width="120" height="120"/>
         <image name="asistenta" width="120" height="120"/>
-        <image name="car" width="369" height="536"/>
+        <image name="car" width="178" height="350"/>
         <image name="checkmarkOff" width="20" height="20"/>
         <image name="infopers" width="120" height="120"/>
         <image name="programare" width="120" height="120"/>
