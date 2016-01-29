@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FB</key>
+	<string>FB Description</string>
+	<key>FRF</key>
+	<string>FRF Description</string>
+	<key>FRD</key>
+	<string>FRD Description</string>
+	<key>BRD</key>
+	<string>BRD Description</string>
+	<key>BRF</key>
+	<string>BRF Description</string>
+	<key>BB</key>
+	<string>BB Description</string>
+	<key>FLD</key>
+	<string>FLD Description</string>
+	<key>BLD</key>
+	<string>BLD Description</string>
+	<key>BLF</key>
+	<string>BLF Description</string>
+	<key>FLF</key>
+	<string>FLF Description</string>
+</dict>
+</plist>

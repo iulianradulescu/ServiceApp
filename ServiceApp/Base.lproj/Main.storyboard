@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="U6w-ns-9sc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="U6w-ns-9sc">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -529,7 +529,7 @@
                                     <constraint firstAttribute="height" constant="22" id="Dog-KB-DhC"/>
                                     <constraint firstAttribute="width" constant="22" id="dRQ-we-KQ7"/>
                                 </constraints>
-                                <state key="normal" title="C" image="checkmarkOff"/>
+                                <state key="normal" title="FLF" image="checkmarkOff"/>
                                 <connections>
                                     <action selector="toggleAccidentMarker:" destination="5LU-lq-rzu" eventType="touchUpInside" id="j1O-pr-UyW"/>
                                 </connections>
@@ -540,7 +540,7 @@
                                     <constraint firstAttribute="width" constant="22" id="jXv-vG-KsI"/>
                                     <constraint firstAttribute="height" constant="22" id="yyu-rl-u3x"/>
                                 </constraints>
-                                <state key="normal" title="C" image="checkmarkOff"/>
+                                <state key="normal" title="FRD" image="checkmarkOff"/>
                                 <connections>
                                     <action selector="toggleAccidentMarker:" destination="5LU-lq-rzu" eventType="touchUpInside" id="rnT-xf-Qh4"/>
                                 </connections>
@@ -551,7 +551,7 @@
                                     <constraint firstAttribute="width" constant="22" id="Nsj-5H-zBX"/>
                                     <constraint firstAttribute="height" constant="22" id="ukX-gp-ghb"/>
                                 </constraints>
-                                <state key="normal" title="C" image="checkmarkOff"/>
+                                <state key="normal" title="BRD" image="checkmarkOff"/>
                                 <connections>
                                     <action selector="toggleAccidentMarker:" destination="5LU-lq-rzu" eventType="touchUpInside" id="7M7-2P-sdG"/>
                                 </connections>
@@ -562,7 +562,7 @@
                                     <constraint firstAttribute="height" constant="22" id="Zsj-If-cgl"/>
                                     <constraint firstAttribute="width" constant="22" id="gIX-t9-uGg"/>
                                 </constraints>
-                                <state key="normal" title="C" image="checkmarkOff"/>
+                                <state key="normal" title="BRF" image="checkmarkOff"/>
                                 <connections>
                                     <action selector="toggleAccidentMarker:" destination="5LU-lq-rzu" eventType="touchUpInside" id="QoM-3h-tZW"/>
                                 </connections>
@@ -573,7 +573,7 @@
                                     <constraint firstAttribute="height" constant="22" id="Lp9-tx-KlP"/>
                                     <constraint firstAttribute="width" constant="22" id="fqI-K0-ZdK"/>
                                 </constraints>
-                                <state key="normal" title="C" image="checkmarkOff"/>
+                                <state key="normal" title="BB" image="checkmarkOff"/>
                                 <connections>
                                     <action selector="toggleAccidentMarker:" destination="5LU-lq-rzu" eventType="touchUpInside" id="FVH-wL-ROa"/>
                                 </connections>
@@ -584,7 +584,7 @@
                                     <constraint firstAttribute="height" constant="22" id="52E-Sg-RLa"/>
                                     <constraint firstAttribute="width" constant="22" id="bve-vg-Qj9"/>
                                 </constraints>
-                                <state key="normal" title="C" image="checkmarkOff"/>
+                                <state key="normal" title="FLD" image="checkmarkOff"/>
                                 <connections>
                                     <action selector="toggleAccidentMarker:" destination="5LU-lq-rzu" eventType="touchUpInside" id="CTX-M1-wyO"/>
                                 </connections>
@@ -595,7 +595,7 @@
                                     <constraint firstAttribute="width" constant="22" id="VOF-XZ-98Q"/>
                                     <constraint firstAttribute="height" constant="22" id="sqS-pK-9qW"/>
                                 </constraints>
-                                <state key="normal" title="C" image="checkmarkOff"/>
+                                <state key="normal" title="BLD" image="checkmarkOff"/>
                                 <connections>
                                     <action selector="toggleAccidentMarker:" destination="5LU-lq-rzu" eventType="touchUpInside" id="Eh3-Kj-MkR"/>
                                 </connections>
@@ -606,7 +606,7 @@
                                     <constraint firstAttribute="width" constant="22" id="09v-2q-erS"/>
                                     <constraint firstAttribute="height" constant="22" id="zOE-3Q-2cA"/>
                                 </constraints>
-                                <state key="normal" title="C" image="checkmarkOff"/>
+                                <state key="normal" title="BLF" image="checkmarkOff"/>
                                 <connections>
                                     <action selector="toggleAccidentMarker:" destination="5LU-lq-rzu" eventType="touchUpInside" id="6yC-G9-Sra"/>
                                 </connections>
@@ -617,7 +617,7 @@
                                     <constraint firstAttribute="height" constant="22" id="UE2-DY-7Mn"/>
                                     <constraint firstAttribute="width" constant="22" id="dYj-eC-DQ6"/>
                                 </constraints>
-                                <state key="normal" title="C" image="checkmarkOff"/>
+                                <state key="normal" title="FB" image="checkmarkOff"/>
                                 <connections>
                                     <action selector="toggleAccidentMarker:" destination="5LU-lq-rzu" eventType="touchUpInside" id="93d-ok-ZJp"/>
                                 </connections>
@@ -628,7 +628,7 @@
                                     <constraint firstAttribute="height" constant="22" id="Kj7-i8-0l9"/>
                                     <constraint firstAttribute="width" constant="22" id="lDV-hJ-YSJ"/>
                                 </constraints>
-                                <state key="normal" title="C" image="checkmarkOff"/>
+                                <state key="normal" title="FRF" image="checkmarkOff"/>
                                 <connections>
                                     <action selector="toggleAccidentMarker:" destination="5LU-lq-rzu" eventType="touchUpInside" id="FZX-kZ-ThX"/>
                                 </connections>
@@ -661,10 +661,127 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="IMu-m6-mym"/>
+                    <connections>
+                        <segue destination="VjW-qj-4p7" kind="push" identifier="accidentDetails" id="neS-gi-JgO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Or-N4-yu5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="620.79999999999995" y="1175.76"/>
+            <point key="canvasLocation" x="408" y="1429"/>
+        </scene>
+        <!--Car Accident Details View Controller-->
+        <scene sceneID="iGo-eM-oGf">
+            <objects>
+                <tableViewController id="VjW-qj-4p7" customClass="CarAccidentDetailsViewController" customModule="ServiceApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="M3L-gx-VS1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="location" textLabel="qr8-DN-Lds" detailTextLabel="VeL-FQ-sob" style="IBUITableViewCellStyleValue1" id="c6X-eL-K7A">
+                                <rect key="frame" x="0.0" y="92" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="c6X-eL-K7A" id="V3U-ef-Che">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qr8-DN-Lds">
+                                            <rect key="frame" x="15" y="12" width="32" height="20"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VeL-FQ-sob">
+                                            <rect key="frame" x="263" y="12" width="42" height="20"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="carStatus" id="RO7-un-suY">
+                                <rect key="frame" x="0.0" y="136" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RO7-un-suY" id="ir3-Fy-gGK">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mov-W3-mPl">
+                                            <rect key="frame" x="257" y="6" width="51" height="31"/>
+                                        </switch>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Masina este deplasabila" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ifT-5v-t5E">
+                                            <rect key="frame" x="17" y="11" width="183" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="mov-W3-mPl" firstAttribute="top" secondItem="ir3-Fy-gGK" secondAttribute="topMargin" constant="-2" id="7g1-Rk-bWU"/>
+                                        <constraint firstItem="ifT-5v-t5E" firstAttribute="top" secondItem="ir3-Fy-gGK" secondAttribute="topMargin" constant="3" id="BKq-ZO-GhH"/>
+                                        <constraint firstItem="ifT-5v-t5E" firstAttribute="leading" secondItem="ir3-Fy-gGK" secondAttribute="leadingMargin" constant="9" id="JFr-kd-dxu"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="mov-W3-mPl" secondAttribute="trailing" constant="6" id="VdV-od-Y6Y"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="ifT-5v-t5E" secondAttribute="bottom" constant="3" id="axp-rn-SnF"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="mov-W3-mPl" secondAttribute="bottom" constant="-2" id="dLF-mT-GuL"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="damage" textLabel="L5v-7S-kt9" style="IBUITableViewCellStyleDefault" id="dxH-9R-f7y">
+                                <rect key="frame" x="0.0" y="180" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dxH-9R-f7y" id="Ogi-bn-fGS">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="L5v-7S-kt9">
+                                            <rect key="frame" x="15" y="0.0" width="290" height="43"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="additionalInfo" rowHeight="160" id="UYc-sx-m9I">
+                                <rect key="frame" x="0.0" y="224" width="320" height="160"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UYc-sx-m9I" id="Alo-MF-yf5">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="159"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="50s-yd-Qai">
+                                            <rect key="frame" x="8" y="8" width="304" height="143"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        </textView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="topMargin" secondItem="50s-yd-Qai" secondAttribute="top" id="60P-H1-zHI"/>
+                                        <constraint firstAttribute="leadingMargin" secondItem="50s-yd-Qai" secondAttribute="leading" id="BdQ-KA-Bf9"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="50s-yd-Qai" secondAttribute="trailing" id="EWw-3b-q9j"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="50s-yd-Qai" secondAttribute="bottom" constant="9" id="FIw-a6-m5l"/>
+                                </constraints>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="VjW-qj-4p7" id="cd1-0Y-Yhi"/>
+                            <outlet property="delegate" destination="VjW-qj-4p7" id="rQB-En-dfs"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="dno-gi-eXW"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n4C-0C-kT7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="883" y="1842"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="HUd-iy-yVK">

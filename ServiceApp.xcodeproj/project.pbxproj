@@ -15,6 +15,9 @@
 		2F97B9501C485528002D2AEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F97B94F1C485528002D2AEE /* Assets.xcassets */; };
 		2F97B9531C485528002D2AEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F97B9511C485528002D2AEE /* LaunchScreen.storyboard */; };
 		2FA36A871C4862B100242DF0 /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA36A861C4862B100242DF0 /* UserDetailsViewController.swift */; };
+		2FAF748D1C5C1BD30049D862 /* ReferenceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAF748C1C5C1BD30049D862 /* ReferenceData.swift */; };
+		2FAF748F1C5C1F0B0049D862 /* DamagesReferenceData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FAF748E1C5C1F0B0049D862 /* DamagesReferenceData.plist */; };
+		2FBE5D8D1C5C15C100637089 /* CarAccidentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBE5D8C1C5C15C100637089 /* CarAccidentDetailsViewController.swift */; };
 		2FE2C6511C4D77F300B0079F /* MarkerCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2C6501C4D77F300B0079F /* MarkerCollectionViewController.swift */; };
 		2FE2C6531C4D787B00B0079F /* MarkerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2C6521C4D787B00B0079F /* MarkerCollectionViewCell.swift */; };
 		2FF7D0841C4A989A002BEED6 /* CarDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF7D0831C4A989A002BEED6 /* CarDetails.swift */; };
@@ -32,6 +35,9 @@
 		2F97B9521C485528002D2AEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F97B9541C485528002D2AEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FA36A861C4862B100242DF0 /* UserDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
+		2FAF748C1C5C1BD30049D862 /* ReferenceData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferenceData.swift; sourceTree = "<group>"; };
+		2FAF748E1C5C1F0B0049D862 /* DamagesReferenceData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DamagesReferenceData.plist; sourceTree = "<group>"; };
+		2FBE5D8C1C5C15C100637089 /* CarAccidentDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarAccidentDetailsViewController.swift; sourceTree = "<group>"; };
 		2FE2C6501C4D77F300B0079F /* MarkerCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkerCollectionViewController.swift; sourceTree = "<group>"; };
 		2FE2C6521C4D787B00B0079F /* MarkerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkerCollectionViewCell.swift; sourceTree = "<group>"; };
 		2FF7D0831C4A989A002BEED6 /* CarDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarDetails.swift; sourceTree = "<group>"; };
@@ -81,6 +87,9 @@
 				2FE2C6521C4D787B00B0079F /* MarkerCollectionViewCell.swift */,
 				2F92AA791C4ED0B30054731C /* ProblemReportingViewController.swift */,
 				2F92AA7B1C502AAD0054731C /* CarAccidentViewController.swift */,
+				2FBE5D8C1C5C15C100637089 /* CarAccidentDetailsViewController.swift */,
+				2FAF748C1C5C1BD30049D862 /* ReferenceData.swift */,
+				2FAF748E1C5C1F0B0049D862 /* DamagesReferenceData.plist */,
 			);
 			path = ServiceApp;
 			sourceTree = "<group>";
@@ -146,6 +155,7 @@
 			files = (
 				2F97B9531C485528002D2AEE /* LaunchScreen.storyboard in Resources */,
 				2F97B9501C485528002D2AEE /* Assets.xcassets in Resources */,
+				2FAF748F1C5C1F0B0049D862 /* DamagesReferenceData.plist in Resources */,
 				2F97B94E1C485528002D2AEE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F97B94B1C485528002D2AEE /* MainMenuViewController.swift in Sources */,
+				2FAF748D1C5C1BD30049D862 /* ReferenceData.swift in Sources */,
 				2FE2C6531C4D787B00B0079F /* MarkerCollectionViewCell.swift in Sources */,
 				2FF7D0861C4A99B8002BEED6 /* CarDetailsViewController.swift in Sources */,
 				2F92AA7A1C4ED0B40054731C /* ProblemReportingViewController.swift in Sources */,
@@ -166,6 +177,7 @@
 				2F97B9491C485528002D2AEE /* AppDelegate.swift in Sources */,
 				2FE2C6511C4D77F300B0079F /* MarkerCollectionViewController.swift in Sources */,
 				2FA36A871C4862B100242DF0 /* UserDetailsViewController.swift in Sources */,
+				2FBE5D8D1C5C15C100637089 /* CarAccidentDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

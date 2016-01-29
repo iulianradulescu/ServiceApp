@@ -37,7 +37,7 @@ class ProblemReportingViewController: UITableViewController, MarkerSelectionDele
     
     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         if indexPath.section == 2 {
-            return 150.0
+            return 160.0
         } else {
             return 44.0
         }

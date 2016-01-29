@@ -12,13 +12,16 @@ import UIKit
 class CarAccidentViewController : UIViewController {
     
     var car: CarDetails?
-    var selectedMarkers = Set<String>()
+    var damages = [CarDamage]( )
+    var selectedDamages = [CarDamage]( )
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let nextBtn = UIBarButtonItem(title: "Continua", style: UIBarButtonItemStyle.Plain, target: self, action: Selector("nextStep"))
         self.navigationItem.rightBarButtonItem = nextBtn
+        
+        damages = CarDamage.allCarDamages()
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -30,16 +33,26 @@ class CarAccidentViewController : UIViewController {
     @IBAction func toggleAccidentMarker(sender: UIButton) {
         //check to see if it is on or off
         let marker = sender.titleForState(UIControlState.Normal)!
-        if selectedMarkers.contains( marker ) {
+        if let idx = CarDamage.findElementFor(marker, inArray: selectedDamages) {
             //we turn it off
-            selectedMarkers.remove( marker )
+            selectedDamages.removeAtIndex(idx)
             sender.setImage(UIImage(named: "checkmarkOff"), forState: UIControlState.Normal)
         } else {
-            selectedMarkers.insert( marker )
+            let idx = CarDamage.findElementFor(marker, inArray: damages)!
+            selectedDamages.append(damages[idx])
             sender.setImage(UIImage(named: "checkmarkOn"), forState: UIControlState.Normal)
         }
+        
+        print(selectedDamages)
     }
     func nextStep( ) {
-        //go to the next screen
+        self.performSegueWithIdentifier("accidentDetails", sender: self)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "accidentDetails" {
+            let destController = segue.destinationViewController as! CarAccidentDetailsViewController
+            destController.damages = self.selectedDamages
+        }
     }
 }
