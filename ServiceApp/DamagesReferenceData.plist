@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>FB</key>
-	<string>FB Description</string>
+	<string>Partea din față a mașinii este afectată</string>
 	<key>FRF</key>
-	<string>FRF Description</string>
+	<string>Aripa dreapta față este afectată</string>
 	<key>FRD</key>
-	<string>FRD Description</string>
+	<string>Ușa dreapta față este afectată</string>
 	<key>BRD</key>
-	<string>BRD Description</string>
+	<string>Ușa dreapta spate este afectată</string>
 	<key>BRF</key>
-	<string>BRF Description</string>
+	<string>Aripa dreapta spate este afectată</string>
 	<key>BB</key>
-	<string>BB Description</string>
+	<string>Partea din spate a mașinii este afectată</string>
 	<key>FLD</key>
-	<string>FLD Description</string>
+	<string>Ușa stânga față este afectată</string>
 	<key>BLD</key>
-	<string>BLD Description</string>
+	<string>Ușa stânga spate este afectată</string>
 	<key>BLF</key>
-	<string>BLF Description</string>
+	<string>Aripa stânga spate este afectată</string>
 	<key>FLF</key>
-	<string>FLF Description</string>
+	<string>Aripa stânga față este afectată</string>
 </dict>
 </plist>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>M1</key>
+	<string>Defecțiune la frâna de parcare electronică. Mergeți de urgența la service-ul dumneavoastră. Conduceți cu prudență și frânați din timp pentru a prevenii accidentele.</string>
+	<key>M2</key>
+	<string>Temperatura motorului este ridicată. Opriți de urgență și lăsați motorul să se răcească. Mergeți de urgență la service-ul dumneavostră.</string>
+	<key>M3</key>
+	<string>Presiunea uleiului de motor este scăzută. Opriți de urgentă și verificați nivelul uleiului. Nu folosiți mașina și contactați service-ul dumneavoastră.</string>
+	<key>M4</key>
+	<string>Sistemul de direcție electromecanic nu funcționează. Contactați service-ul dumneavoastră.</string>
+	<key>M5</key>
+	<string>Cuplați centura de siguranță. Dacă avertizarea este în continuare afișată, mergeți la service-ul dumneavoastră.</string>
+	<key>M6</key>
+	<string>Probleme la pedala de frână. Apăsați complet pedala de frână, dacă avertizarea este în continuare afișată nu folosiți mașina și contactați service-ul dumneavoastră.</string>
+	<key>M7</key>
+	<string>Defecțiune la alternatorul mașinii. Bateria nu mai este încărcată, mergeți de urgentă la service-ul dumneavoastră.</string>
+	<key>M8</key>
+	<string>Doar pentru mașinile Audi, Volkswagen, Seat și Skoda - probleme la cutia de viteze automată DSG. Opriți mașina și așteptați răcirea cutiei de viteze. Dacă avertizarea este în continuare afișată, nu folosiți mașina și contactați service-ul dumneavoastră.</string>
+	<key>M9</key>
+	<string>Eroare a sistemului de aprindere. Nu opriți mașina (este posibil să nu mai puteți porni) și conduceți imediat la service-ul dumneavoastră.</string>
+	<key>M10</key>
+	<string>Defecțiune la sistemul de blocare al direcției. Opriți mașina și contactați de urgentă service-il dumneavoastră.</string>
+	<key>M11</key>
+	<string>Sistemul ABS este defect. Conduceți cu prudență și franați din timp. Mergeți de urgență la service-ul dumeneavoastră.</string>
+	<key>M12</key>
+	<string>Doar pentru mașinile  Audi, Volkswagen, Seat și Skoda - sistemul ABS este defect. Conduceți cu prudență și franați din timp. Mergeți de urgență la service-ul dumeneavoastră.</string>
+	<key>M13</key>
+	<string>Plăcuțele de frână sunt uzate. Mergeți de urgență la service-ul dumneavoastră.</string>
+</dict>
+</plist>

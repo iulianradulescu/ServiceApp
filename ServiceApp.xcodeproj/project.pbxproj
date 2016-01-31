@@ -22,6 +22,7 @@
 		2FE2C6531C4D787B00B0079F /* MarkerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2C6521C4D787B00B0079F /* MarkerCollectionViewCell.swift */; };
 		2FF7D0841C4A989A002BEED6 /* CarDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF7D0831C4A989A002BEED6 /* CarDetails.swift */; };
 		2FF7D0861C4A99B8002BEED6 /* CarDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF7D0851C4A99B8002BEED6 /* CarDetailsViewController.swift */; };
+		65D6AB0C1C5EA905000E7BA1 /* BoardMarkersReferenceData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65D6AB0B1C5EA905000E7BA1 /* BoardMarkersReferenceData.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		2FE2C6521C4D787B00B0079F /* MarkerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkerCollectionViewCell.swift; sourceTree = "<group>"; };
 		2FF7D0831C4A989A002BEED6 /* CarDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarDetails.swift; sourceTree = "<group>"; };
 		2FF7D0851C4A99B8002BEED6 /* CarDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarDetailsViewController.swift; sourceTree = "<group>"; };
+		65D6AB0B1C5EA905000E7BA1 /* BoardMarkersReferenceData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BoardMarkersReferenceData.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				2FBE5D8C1C5C15C100637089 /* CarAccidentDetailsViewController.swift */,
 				2FAF748C1C5C1BD30049D862 /* ReferenceData.swift */,
 				2FAF748E1C5C1F0B0049D862 /* DamagesReferenceData.plist */,
+				65D6AB0B1C5EA905000E7BA1 /* BoardMarkersReferenceData.plist */,
 			);
 			path = ServiceApp;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			files = (
 				2F97B9531C485528002D2AEE /* LaunchScreen.storyboard in Resources */,
 				2F97B9501C485528002D2AEE /* Assets.xcassets in Resources */,
+				65D6AB0C1C5EA905000E7BA1 /* BoardMarkersReferenceData.plist in Resources */,
 				2FAF748F1C5C1F0B0049D862 /* DamagesReferenceData.plist in Resources */,
 				2F97B94E1C485528002D2AEE /* Main.storyboard in Resources */,
 			);
